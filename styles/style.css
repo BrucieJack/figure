@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.figure{
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    background-color: black;
+}
+
+.blue-square{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    z-index: 2;
+}
+
+.blue-square:hover{
+    background-color: magenta;
+    z-index: 4;
+}
+
+.yellow-square{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 20%;
+    height: 20%;
+    border-radius: 15%;
+    z-index: 3;
+    background-color: yellow;
+}
+
+.circle-left-bottom{
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: red;
+    z-index: 0; 
+}
+
+.circle-left-bottom:hover{
+    background-color: lightseagreen;
+    z-index: 3;
+}
+
+.circle-right-bootom{
+    position: absolute;
+    top: 65%;
+    left: 65%;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: red; 
+}
+
+.circle-right-bootom:hover{
+    background-color: lightcoral;
+    z-index:3
+}
+
+.circle-right-top{
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: red; 
+}
+
+.circle-right-top:hover{
+    background-color: grey;
+    z-index: 3;
+}
+
+.circle-left-top{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: red; 
+}
+
+.circle-left-top:hover{
+    background-color: lawngreen;
+    z-index: 3;
+}
